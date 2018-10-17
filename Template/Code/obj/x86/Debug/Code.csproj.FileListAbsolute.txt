@@ -1,0 +1,195 @@
+D:\MazeGame\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+D:\MazeGame\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+D:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+D:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+D:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+D:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+D:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+D:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+D:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+D:\MazeGame\Template\Code\bin\x86\Debug\Engine7.dll
+D:\MazeGame\Template\Code\bin\x86\Debug\Engine7.xml
+D:\MazeGame\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+D:\MazeGame\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+D:\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+G:\MazeGame\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+G:\MazeGame\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+G:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+G:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+G:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+G:\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+G:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+G:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+G:\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+G:\MazeGame\Template\Code\bin\x86\Debug\Engine7.dll
+G:\MazeGame\Template\Code\bin\x86\Debug\Engine7.xml
+G:\MazeGame\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+G:\MazeGame\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+G:\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+E:\usb\MazeGame\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\usb\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Engine7.dll
+E:\usb\MazeGame\Template\Code\bin\x86\Debug\Engine7.xml
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Engine7.dll
+E:\usb\MazeGame\New folder\Template\Code\bin\x86\Debug\Engine7.xml
+E:\usb\MazeGame\New folder\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+E:\usb\MazeGame\New folder\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\usb\MazeGame\New folder\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\New folder\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+E:\usb\MazeGame\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+E:\usb\MazeGame\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+E:\usb\MazeGame\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\usb\MazeGame\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+G:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Prototype 1\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+G:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+E:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\usb\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+D:\usb\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\MazeGame\Prototype 2\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\LevelData\Race3 example data file.txt
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Content\Graphics\Sprites.xnb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\explode.xnb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\extra man.xnb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fire.xnb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Content\Audio\fruit.xnb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.XML
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\TemplateJune2015.pdb
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Engine7.dll
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\bin\x86\Debug\Engine7.xml
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\obj\x86\Debug\Code.csprojResolveAssemblyReference.cache
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.exe
+D:\Users\bigdickadam\Desktop\Visual Studio\Template\Code\obj\x86\Debug\TemplateJune2015.pdb

@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TemplateJune2015</name>
+    </assembly>
+    <members>
+        <member name="F:Template.Game.Level.walls">
+            <summary>
+            List of tiles that the player cannot walk through
+            </summary>
+        </member>
+        <member name="F:Template.Game.Level.MiniMap">
+            <summary>
+            The location of the minimap
+            </summary>
+        </member>
+        <member name="F:Template.Game.Level.MazeGen">
+            <summary>
+            Maze gen class
+            </summary>
+        </member>
+        <member name="M:Template.Game.Level.UpdateMap(Engine7.Message)">
+            <summary>
+            Updates the alpha valued of the tile at the given position
+            </summary>
+        </member>
+        <member name="M:Template.Game.Level.SetCollisionData">
+            <summary>
+            Creates a list of tiles that cannot be walked through
+            </summary>
+        </member>
+        <member name="M:Template.Game.Level.HitWall(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            Returns true if at position there is a tile in the list
+            </summary>
+        </member>
+        <member name="M:Template.Game.Level.HitWall(Microsoft.Xna.Framework.Vector2,System.Collections.Generic.List{Microsoft.Xna.Framework.Vector2})">
+            <summary>
+            If at any of the positions in offsets there is a tile in the collision list return true
+            </summary>
+        </member>
+        <member name="M:Template.Game.Level.CreateTiles">
+            <summary>
+            Array of tile information
+            </summary>
+        </member>
+        <member name="F:Template.Game.MazeGenerator.Maze">
+            <summary>
+            0 = Wall
+            1 = Passage
+            </summary>
+        </member>
+        <member name="F:Template.Game.MazeGenerator.X">
+            <summary>
+            Current position that the Maze Generator is inspecting;
+            Current position of Dig()
+            </summary>
+        </member>
+        <member name="F:Template.Game.MazeGenerator.Y">
+            <summary>
+            Current position that the Maze Generator is inspecting;
+            Current position of Dig()
+            </summary>
+        </member>
+        <member name="F:Template.Game.MazeGenerator.directions">
+            <summary> 1=North, 2=South,  4=East, 8=West</summary>///
+        </member>
+        <member name="M:Template.Game.MazeGenerator.NewMaze">
+            <summary>
+            Generates a new maze using recursive backtracking
+            </summary>
+        </member>
+        <member name="M:Template.Game.MazeGenerator.Dig">
+            <summary>
+            The worker method just carves a path that direction picker says. Calls self until it reaches start point.
+            </summary>
+        </member>
+        <member name="M:Template.Game.MazeGenerator.directionPicker">
+             <summary>
+             Checks a 2x3 area around each direction of the square and returns a random direction that is safe to travel
+             safe to travel means it will not cut into a visited square and there is not a visited square in the 2x3 area
+             </summary>
+            
+             <returns></returns>
+        </member>
+        <member name="M:Template.Game.MazeGenerator.checkNeighbours">
+            <summary>
+            Checks Points adjacent to current position
+            </summary>
+            <returns>True if there is atleast 1 wall adjacent to current position</returns>
+        </member>
+        <member name="F:Template.Game.Player.mazeGen">
+            <summary>
+            current level instance of the mazegen
+            </summary>
+        </member>
+        <member name="F:Template.Game.Player.rotationSpeed">
+            <summary>
+            rotation speed in degrees per second
+            </summary>
+        </member>
+        <member name="F:Template.Game.Player.walkSpeed">
+            <summary>
+            walk speed in pixels per second
+            </summary>
+        </member>
+        <member name="M:Template.Game.Player.Controls">
+            <summary>
+            Gets keyboard input of player
+            </summary>
+        </member>
+        <member name="M:Template.Game.Player.collistionRadius(System.Int32)">
+            <summary>
+            Returns a point that is infront of the sprite. It is infront when the additional angle is 0
+            </summary>
+            <param name="additionalAngle">angle away from normal</param>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Game.Player.Facing">
+            <summary>
+            Returns a string of what quadrant the player sprite is facing.
+            </summary>
+        </member>
+        <member name="M:Template.Game.Player.Move(System.Int32,System.Int32)">
+            <summary>
+            Moves the player in the angle specified
+            </summary>
+            <param name="additionalAngle">0 is directly infront of the player 90 is to the right of the player</param>
+            <param name="speed">velocity in direction</param>
+        </member>
+        <member name="F:Template.Game.RayCast.displayWidth">
+            <summary>
+            X resolution of game window. Less will be faster as it will cast less rays.
+            </summary>
+        </member>
+        <member name="F:Template.Game.RayCast.gameLines">
+            <summary>
+            List of lines that are used to create three dimensional effect. The list is updated at the end of the raycast event
+            </summary>
+        </member>
+        <member name="F:Template.Game.RayCast.miniMapLines">
+            <summary>
+            Similar to GameRays. The lines are used to draw a view cone on the player
+            </summary>
+        </member>
+        <member name="M:Template.Game.RayCast.#ctor(Template.Game.Level)">
+            <summary>
+            Constructor for the raycaster. This will create the lines that are used to render the game. Creates a raycast event and subscribes to the players location and rotation.
+            </summary>
+            <param name="level">The Level that will be raycast.</param>
+        </member>
+        <member name="M:Template.Game.RayCast.createLines">
+            <summary>
+            Creates an array of lines. the lines start and end are both 0,0
+            </summary>
+        </member>
+        <member name="M:Template.Game.RayCast.PlayerRotation(Engine7.Message)">
+            <summary>
+            Reaction to a message that tells this to update the players rotation. This just sets the rays rotation to be equal to the players.
+            </summary>
+        </member>
+        <member name="M:Template.Game.RayCast.RayCasting">
+            <summary>
+            Ray Cast event. This happens every frame of the screen. Starts at the left line of the screen and moves right. Updates the line of each ray at the end.
+            </summary>
+        </member>
+        <member name="M:Template.Game.RayCast.UpdateLine(System.Int32,System.Int32,System.Int32,Microsoft.Xna.Framework.Color,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Updates the lines at x in the line arrays. Updates both the Game lines and the Minimap lines
+            </summary>
+            <param name="x"> which line to update</param>
+        </member>
+        <member name="T:Template.Game.Stack">
+            <summary>
+            Creates a stack of points for use in a maze;
+            </summary>
+        </member>
+        <member name="F:Template.Game.Stack.max">
+            <summary>
+            maximum number of items in the stack
+            </summary>
+        </member>
+        <member name="F:Template.Game.Stack.sp">
+            <summary>
+            current position of the stack pointer. Will always be pointing to an empty location
+            </summary>
+        </member>
+        <member name="F:Template.Game.Stack.stack">
+            <summary>
+            contains the stack
+            </summary>
+        </member>
+        <member name="P:Template.Game.Stack._sp">
+            <summary>
+            Returns the current position of the stackpointer
+            </summary>
+        </member>
+        <member name="M:Template.Game.Stack.#ctor(System.Int32)">
+            <summary>
+            Constructs a stack of points based on the size of the maze;
+            </summary>
+            <param name="stackSize">Size of the stack</param>
+        </member>
+        <member name="M:Template.Game.Stack.Push(Microsoft.Xna.Framework.Point)">
+            <summary>
+            Adds item to stack new if stack is full throws an exception
+            </summary>
+            <param name="item">Point to add to stack</param>
+        </member>
+        <member name="M:Template.Game.Stack.Pop">
+            <summary>
+            Removes item from the top of the stack if stack is empty throws exception
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.Game.Stack.Peak">
+            <summary>
+            Looks at the item at the top of the stack without changing the stack pointer
+            </summary>
+        </member>
+        <member name="T:Template.ScoreEntry">
+            <summary>
+            generates the score entry menu and associated controls
+            </summary>
+        </member>
+        <member name="F:Template.ScoreEntry.evControl">
+            <summary>
+            event for controller
+            </summary>
+        </member>
+        <member name="F:Template.ScoreEntry.tiDelay">
+            <summary>
+            input delay timer
+            </summary>
+        </member>
+        <member name="F:Template.ScoreEntry.initials">
+            <summary>
+            storage for intials
+            </summary>
+        </member>
+        <member name="M:Template.ScoreEntry.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="M:Template.ScoreEntry.Controls">
+            <summary>
+            input controls for the menu
+            </summary>
+        </member>
+        <member name="M:Template.ScoreEntry.ChoiceMade">
+            <summary>
+            activated if selection is activated
+            </summary>
+        </member>
+        <member name="T:Template.GM">
+            <summary>
+            holds all game assets and code to set up those assets
+            </summary>
+            <summary>
+            Contains the code that setsup and closes the system
+            </summary>
+            <summary>
+            This is the main type for your game
+            </summary>
+        </member>
+        <member name="F:Template.GM.fileM">
+            <summary>
+            organises and saves files in the given folder
+            </summary>
+        </member>
+        <member name="F:Template.GM.THROTTLE">
+            <summary>
+            determines if game is being throttled (DEFAULT), 
+            this links rendering to the refresh rate of the monitor (which prevents tearing)
+            </summary>
+        </member>
+        <member name="F:Template.GM.UPDATE_RATE">
+            <summary>
+            how many times a second do you want the internal clocks and logic to operate at defaults to 100
+            </summary>
+        </member>
+        <member name="F:Template.GM.screenSize">
+            <summary>
+            reference to screen size - smaller is better as this will be quickler
+            </summary>
+        </member>
+        <member name="F:Template.GM.scoring">
+            <summary>
+            holds scores
+            </summary>
+        </member>
+        <member name="F:Template.GM.active">
+            <summary>
+            holds currently active container
+            </summary>
+        </member>
+        <member name="F:Template.GM.txSprite">
+            <summary>
+            holds the example sprite
+            </summary>
+        </member>
+        <member name="M:Template.GM.StartPreLoader">
+            <summary>
+            specifies what assets are being loaded
+            </summary>
+        </member>
+        <member name="M:Template.GM.Setup">
+            <summary>
+            deals with creation of other assets once all textures and sounds are loaded
+            run after all assets have been loaded
+            </summary>
+        </member>
+        <member name="M:Template.GM.CreateTracks">
+            <summary>
+            create any track definitions for the game
+            </summary>
+        </member>
+        <member name="M:Template.GM.StartSystem">
+            <summary>
+            starts the game off with the title screen
+            </summary>
+        </member>
+        <member name="M:Template.GM.Start">
+            <summary>
+            start the system now everything is loaded
+            </summary>
+        </member>
+        <member name="M:Template.GM.LoadScore(Engine7.ReadHelper)">
+            <summary>
+            load score table when system retrieves file
+            </summary>
+            <param name="r">helper with file data</param>
+        </member>
+        <member name="M:Template.GM.ShutDown">
+            <summary>
+            cleanly exits the game saving data to files
+            </summary>
+        </member>
+        <member name="F:Template.GM.graphics">
+            <summary>
+            Creates reference to the graphics device
+            </summary>
+        </member>
+        <member name="F:Template.GM.engineM">
+            <summary>
+            the engine manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.tileMapM">
+            <summary>
+            the tilemap manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.menuM">
+            <summary>
+            handles menu display and activation
+            </summary>
+        </member>
+        <member name="F:Template.GM.eventM">
+            <summary>
+            the event manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.textM">
+            <summary>
+            the text manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.audioM">
+            <summary>
+            the audio manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.inputM">
+            <summary>
+            the input manager
+            </summary>
+        </member>
+        <member name="F:Template.GM.loadM">
+            <summary>
+            handles loading assets in the background
+            </summary>
+        </member>
+        <member name="M:Template.GM.#ctor">
+            <summary>
+            constructs the basic game elements
+            </summary>
+        </member>
+        <member name="M:Template.GM.CheckAssemblyDetails">
+            <summary>
+            determines if basic template settings have been changed or not
+            throwing exceptions if they have not
+            </summary>
+        </member>
+        <member name="M:Template.GM.Initialize">
+            <summary>
+            Allows the game to perform any initialization it needs to before starting to run.
+            This is where it can query for any required services and load any non-graphic
+            related content.  Calling base.Initialize will enumerate through any components
+            and initialize them as well.
+            </summary>
+        </member>
+        <member name="M:Template.GM.GM_Exiting(System.Object,System.EventArgs)">
+            <summary>
+            called when game is shutting down
+            </summary>
+            <param name="sender">the sender of the exit request</param>
+            <param name="e">arguments to go along with the closing event</param>
+        </member>
+        <member name="M:Template.GM.CloseSystem">
+            <summary>
+            closes the system down formally
+            </summary>
+        </member>
+        <member name="F:Template.GM.gameState">
+            <summary>
+            holds current state of game, starts with LOAD_UP
+            </summary>
+        </member>
+        <member name="F:Template.GM.r">
+            <summary>
+            a random number generator
+            </summary>
+        </member>
+        <member name="F:Template.GM.startThisState">
+            <summary>
+            holds the state the game is in
+            </summary>
+        </member>
+        <member name="M:Template.GM.GameLoop">
+            <summary>
+            perform general logic actions
+            </summary>
+        </member>
+        <member name="M:Template.GM.ProcessStateChange">
+            <summary>
+            processes game state change requests
+            </summary>
+        </member>
+        <member name="M:Template.GM.LoadingLogic">
+            <summary>
+            performs logic while loading assets
+            </summary>
+        </member>
+        <member name="M:Template.GM.ClearAllButSprites">
+            <summary>
+            removes/disables or stops all managed assets except sprites
+            </summary>
+        </member>
+        <member name="M:Template.GM.ClearAllManagedObjects">
+            <summary>
+            removes/disables or stops all managed assets
+            </summary>
+        </member>
+        <member name="M:Template.GM.ClearSounds">
+            <summary>
+            stops all sounds playing
+            </summary>
+        </member>
+        <member name="M:Template.GM.ClearAllButSound">
+            <summary>
+            removes/disables everything but music and sound effects
+            </summary>
+        </member>
+        <member name="M:Template.GM.ClearAllButMusic">
+            <summary>
+            removes/disables everything but the current music playing
+            </summary>
+        </member>
+        <member name="M:Template.GM.LoadContent">
+            <summary>
+            LoadContent will be called once per game and is the place to load
+            all of your content.
+            </summary>
+        </member>
+        <member name="M:Template.GM.UnloadContent">
+            <summary>
+            UnloadContent will be called once per game and is the place to unload
+            all content.
+            </summary>
+        </member>
+        <member name="M:Template.GM.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Allows the game to run logic such as updating the world,
+            checking for collisions, gathering input, and playing audio.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="M:Template.GM.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            This is called when the game should draw itself.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="T:Template.BasicSetup">
+            <summary>
+            hold base settings here for items needed during all containers
+            </summary>
+        </member>
+        <member name="F:Template.BasicSetup.evLogic">
+            <summary>
+            holds the logic event
+            </summary>
+        </member>
+        <member name="M:Template.BasicSetup.#ctor(System.Boolean)">
+            <summary>
+            contains items that all containers need to activate
+            </summary>
+        </member>
+        <member name="M:Template.BasicSetup.Logic">
+            <summary>
+            default logic for the container. You need to override this method
+            </summary>
+        </member>
+        <member name="T:Template.ScoreSystem">
+            <summary>
+            holds highscores
+            </summary>
+        </member>
+        <member name="M:Template.ScoreSystem.#ctor">
+            <summary>
+            holds the high score table
+            </summary>
+        </member>
+        <member name="M:Template.ScoreSystem.Default">
+            <summary>
+            returns a default set of scores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Template.ScoreSystem.NewScore(System.Int32,System.String)">
+            <summary>
+            adds a new score to the score table
+            </summary>
+            <param name="score">time to add</param>
+            <param name="name">name of player</param>
+        </member>
+        <member name="M:Template.ScoreSystem.ShowScores">
+            <summary>
+            displays the scores using sprites
+            </summary>
+        </member>
+        <member name="T:Template.Cursor">
+            <summary>
+            defines a cursor sprite
+            </summary>
+        </member>
+        <member name="F:Template.Cursor.evLogic">
+            <summary>
+            an event to control operational logic for this sprite
+            </summary>
+        </member>
+        <member name="M:Template.Cursor.#ctor">
+            <summary>
+            creates a new cursor that tracks the mouse
+            </summary>
+        </member>
+        <member name="M:Template.Cursor.CleanUp">
+            <summary>
+            make sure the event is removed when this object is destroyed
+            </summary>
+        </member>
+        <member name="M:Template.Cursor.#ctor(Microsoft.Xna.Framework.Point)">
+            <summary>
+            allows a starting position to be specified
+            </summary>
+            <param name="start">the start position</param>
+        </member>
+        <member name="M:Template.Cursor.Logic">
+            <summary>
+            update logic that needs to be performed
+            </summary>
+        </member>
+        <member name="M:Template.Cursor.Reset(Microsoft.Xna.Framework.Vector2)">
+            <summary>
+            set the new position of the cursor
+            </summary>
+            <param name="newPosition">position to set cursor</param>
+        </member>
+        <member name="T:Template.ExtraMessageTypes">
+            <summary>
+            defines a message types
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.PlayerPosition">
+            <summary>
+            Players location
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.PlayerRotation">
+            <summary>
+            Players Rotation
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.BulletDestroyed">
+            <summary>
+            no message data sent when a player bullet is destroyed
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.PlayerDestroyed">
+            <summary>
+            no message data sent when player is destroyed
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.EnemyDestroyed">
+            <summary>
+            object value contains an integer for score value of enemy
+            </summary>
+        </member>
+        <member name="F:Template.ExtraMessageTypes.NameEntryComplete">
+            <summary>
+            when score is finished, initials are stored in Object which needs casting to (string)
+            </summary>
+        </member>
+        <member name="T:Template.Title.TitleSetup">
+            <summary>
+            generates graphs for display
+            </summary>
+        </member>
+        <member name="M:Template.Title.TitleSetup.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="M:Template.Title.TitleSetup.Logic">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

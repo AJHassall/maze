@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Template.Game.GameSetup" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Game\GameSetup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Game.Level">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAwAAAAAAAAAAIIABAAAAAAAAAEIAAAAAAAAA=</HashCode>
+      <FileName>Game\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Game.MazeGenerator">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAgABEAAIAABQAEAEAAAAAAAQIAYAA=</HashCode>
+      <FileName>Game\MazeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Game.Player">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAQIAAQAAQAAAAAAAEAQAAAAABgAAAAAAA=</HashCode>
+      <FileName>Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Game.RayCast">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAAAAAIAAAAQAAACACAAAgAUAAAAgAUEggAAE=</HashCode>
+      <FileName>Game\RayCast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.Game.Stack">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAAAAAAAAAAAAGAAIAAAAAAgAAACAA=</HashCode>
+      <FileName>Game\Stack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
